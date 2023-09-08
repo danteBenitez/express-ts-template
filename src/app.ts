@@ -5,7 +5,7 @@ import * as path from "path";
 import { errorHandler, errorNotFoundHandler } from "./middlewares/errorHandler";
 
 // Routes
-import { index } from "./routes/index";
+import { index } from "./routes/index.routes";
 // Create Express server
 export const app = express();
 
